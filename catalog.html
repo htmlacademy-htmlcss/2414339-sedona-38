@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Каталог гостиниц Седоны</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">
+          <img src="" width="140" height="70" alt="Логотип Седона">
+        </a>
+
+        <ul>
+          <li>
+            <a href="index.html">Главная</a>
+          </li>
+          <li>
+            <a href="#">О Седоне</a>
+          </li>
+          <li>
+            <a>Гостиницы</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#">Поиск</a>
+          </li>
+          <li>
+            <a href="#">Нравится</a>
+          </li>
+          <li>
+            <a href="#">Хочу сюда!</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="visibility-hidden">Каталог гостиниц Седоны</h1>
+
+      <section>
+        <h2>Гостиницы Седоны</h2>
+
+          <ul>
+            <li>
+              <a href="index.html"><span class="visibility-hidden">Главная</span></a>
+            </li>
+            <li>
+              <a href="#">Гостиницы</a>
+            </li>
+          </ul>
+
+          <section>
+            <h3 class="visibility-hidden">Фильтр</h3>
+
+            <section>
+              <h4>Инфраструктура:</h4>
+
+              <ul>
+                <li>
+                  Бассейн
+                </li>
+                <li>
+                  Парковка
+                </li>
+                <li>
+                  Wi-Fi
+                </li>
+              </ul>
+            </section>
+
+            <section>
+              <h4>Тип жилья:</h4>
+
+              <ul>
+                <li>
+                  Гостиница
+                </li>
+                <li>
+                  Мотель
+                </li>
+                <li>
+                  Апартаменты
+                </li>
+              </ul>
+            </section>
+
+            <section>
+              <h4>Стоимость, &#8381:</h4>
+
+              <!--Фильтр-->
+            </section>
+
+            <div>
+              <button type="button">Применить</button>
+              <button type="button">Сбросить</button>
+            </div>
+          </section>
+      </section>
+
+      <section>
+        <h2 class="visibility-hidden">Результаты поиска</h2>
+        <h3>Найдено гостиниц: 38</h3>
+
+        <select aria-label="Сортировка">
+          <option value="popular">Сначала популярное</option>
+          <option value="cheap">Сначала дешевые</option>
+          <option value="expensive">Сначала дорогие</option>
+        </select>
+
+        <select aria-label="Параметры вида отображения">
+          <option value="icons">Плитка</option>
+          <option value="gallery">Галерея</option>
+          <option value="list">Список</option>
+        </select>
+
+        <section>
+          <h3 class="visibility-hidden">Список найденных гостиниц</h3>
+
+          <ul>
+            <li>
+              <section>
+                <img scr="#" alt="Вид из ущелья на звезное небо.">
+                <h4>Amara Resort & Spa</h4>
+                <p>Гостиница</p>
+                <p>От 4000 &#8381</p>
+
+                <a href="#">Подробнее</a>
+                <button type="button">В избранное</button>
+
+                <ol>
+                  <li>
+                    <span class="visibility-hidden">Плохо</span>
+                  </li>
+                  <li>
+                    <span class="visibility-hidden">Удовлетворительно</span>
+                  </li>
+                  <li>
+                    <span class="visibility-hidden">Хорошо</span>
+                  </li>
+                  <li>
+                    <span class="visibility-hidden">Отлично</span>
+                  </li>
+                </ol>
+
+                <p>Рейтинг: 8,5</p>
+              </section>
+            </li>
+
+            <li>
+              <section>
+                <img scr="#" alt="Горы в солнечном свете на фоне радуги и непогоды.">
+                <h4>Villas at Poco Diablo</h4>
+                <p>Гостиница</p>
+                <p>От 5000 &#8381</p>
+
+                <a href="#">Подробнее</a>
+                <button type="button">В избранное</button>
+
+                <ol>
+                  <li>
+                    <span class="visibility-hidden">Плохо</span>
+                  </li>
+                  <li>
+                    <span class="visibility-hidden">Удовлетворительно</span>
+                  </li>
+                  <li>
+                    <span class="visibility-hidden">Хорошо</span>
+                  </li>
+                  <li>
+                    <span class="visibility-hidden">Отлично</span>
+                  </li>
+                </ol>
+
+                <p>Рейтинг: 9,2</p>
+              </section>
+            </li>
+
+            <li>
+              <section>
+                <img scr="#" alt="Пейзаж: горы и зеленые деревья.">
+                <h4>Desert Quail Inn</h4>
+                <p>Гостиница</p>
+                <p>От 2500 &#8381</p>
+
+                <a href="#">Подробнее</a>
+                <button type="button">В избранное</button>
+
+                <ol>
+                  <li>
+                    <span class="visibility-hidden">Плохо</span>
+                  </li>
+                  <li>
+                    <span class="visibility-hidden">Удовлетворительно</span>
+                  </li>
+                  <li>
+                    <span class="visibility-hidden">Хорошо</span>
+                  </li>
+                </ol>
+
+                <p>Рейтинг: 6,9</p>
+              </section>
+            </li>
+
+            <li>
+              <section>
+                <img scr="#" alt="Гора на фоне заката и звездного неба.">
+                <h4>GreenTree Inn</h4>
+                <p>Гостиница</p>
+                <p>От 1500 &#8381</p>
+
+                <a href="#">Подробнее</a>>
+                <button type="button">В избранное</button>
+
+                <ol>
+                  <li>
+                    <span class="visibility-hidden">Плохо</span>
+                  </li>
+                  <li>
+                    <span class="visibility-hidden">Удовлетворительно</span>
+                  </li>
+                </ol>
+
+                <p>Рейтинг: 5,0</p>
+              </section>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3 class="visibility-hidden">Пагинация</h3>
+
+          <ul>
+            <li><a href="catalog.html">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">...</a></li>
+            <li><a href="#">10</a></li>
+          </ul>
+        </section>
+      </section>
+
+      <article>
+        <h3>Подпишитесь на рассылку</h3>
+        <p>Только полезная информация и никакого спама,<br>
+          честное бойскаутское!
+        </p>
+
+        <form action="https://echo.htmlacademy.ru">
+          <label>
+            Ваш e-mail
+            <input type="text" name="e-mail" required>
+          </label>
+          <button type="submit">Подписаться</button>
+        </form>
+      </article>
+    </main>
+  </body>
+
+    <footer>
+      <section>
+        <h2>Мы в социальных сетях</h2>
+
+        <section>
+          <h3 class="visibiliy-hidden">Мы в социальных сетях</h2>
+
+            <ul>
+              <li><a href="https://vk.com/htmlacademy"><span class="visibility-hidden">Vkontakte</span></a></li>
+              <li><a href="https://t.me/htmlacademy"><span class="visibility-hidden">Telegram</span></a></li>
+              <li><a href="https://www.youtube.com/user/htmlacademyru"><span class="visibility-hidden">Youtube</span></a></li>
+            </ul>
+        </section>
+
+        <a href="tel:+78128121212">+7 (812) 812–12–12</a>
+
+        <a href="https://htmlacademy.ru"><img scr="#" alt="Логотип html academy"></a>
+      </section>
+    </footer>
