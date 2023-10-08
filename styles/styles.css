@@ -1,0 +1,119 @@
+:root {
+  --basic-color: #000000;
+  --second-color: #333333;
+  --white:#ffffff;
+  --transparent-white: rgba(255, 255, 255, 0.3);
+  --text-error: #ff5757;
+  --button-basic: #756157;
+  --blue: #82b3d3;
+  --light-blue: rgba(131, 179, 211, 0.2);
+  --blue-second: rgba(131, 179, 211, 0.12);
+  --dark-blue: #3f5e72;
+  --green: #7db54f;
+  --grey: #e5e5e5;
+  --light-grey: #f2f2f2;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  word-wrap: normal;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.hero {
+  background-image: url("../images/flag.png"), url("../images/nature.jpg");
+  background-color: var(--basic-color);
+  background-size: contain, cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  text-align: center;
+}
+
+.nobullet {
+  list-style-type: none;
+}
+
+.service-home {
+  list-style-image: url("../images/advantage-icons/home.svg");
+}
+
+.service-food {
+  list-style-image: url("../images/advantage-icons/food.svg");
+}
+
+.service-gift {
+  list-style-image: url("../images/advantage-icons/gift.svg");
+}
+
+.advantages-item {
+  background-color: var(--blue-second);
+  width: 400px;
+  height: 385px;
+}
+
+.advantages-image {
+  background-color: var(--blue);
+  width: 400px;
+  height: 385px;
+}
+
+.advantages-select, .services-item {
+  background-color: var(--light-blue);
+  width: 400px;
+  height: 385px;
+}
+
+.service-food {
+  background-color: var(--white);
+}
+
+.subscription {
+  background-image: url("../images/subscribe-background.jpg");
+  background-color: var(--basic-color);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  text-align: center;
+}
+
+.search-filter {
+  background-image: url("../images/filter-background.jpg");
+  background-color: var(--basic-color);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  text-align: left;
+}
+
+.filter-fieldset {
+  border: none;
+}
+
+.social-item a {
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px;
+}
+
+.social-vk a {
+  background-image: url("../images/social-icons/social-vk.svg");   
+  background-size: 48px 41px;
+}
+
+.social-telegram a {
+  background-image: url("../images/social-icons/social-telegram.svg");   
+  background-size: 48px 41px;
+}
+
+.social-youtube a {
+  background-image: url("../images/social-icons/social-youtube.svg");   
+  background-size: 48px 41px;
+}
